@@ -1,1 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+list-style-type:none ;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #B4B4B4;
+}
+li img{
+    width: 20px;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: #10056b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #fff;
+}
+
+.heroVideo video{
+    left: 0;
+}
+.heroVideo{
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.heroText {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.heroText h1{
+    font-size: 30px !important;
+}
