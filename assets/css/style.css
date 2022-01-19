@@ -7,22 +7,22 @@
     padding: 0;
 }
 
-ul{
+.navUl{
 list-style-type:none ;
 margin: 0;
 padding: 0;
 overflow: hidden;
 background-color: #B4B4B4;
 }
-li img{
+.navUl li img{
     width: 20px;
 }
 
-li{
+.navUl li{
     float: left;
 }
 
-li a{
+.navUl li a{
     display: block;
     color: #10056b;
     text-align: center;
@@ -30,7 +30,7 @@ li a{
     text-decoration: none;
 }
 
-li a:hover{
+.navUl li a:hover{
     background-color: #fff;
 }
 
@@ -42,7 +42,6 @@ li a:hover{
     overflow: hidden;
     position: relative;
 }
-
 .heroText {
     text-align: center;
     position: absolute;
@@ -52,5 +51,7 @@ li a:hover{
     color: white;
 }
 .heroText h1{
-    font-size: 30px !important;
+    font-family: 'Oleo Script';
+    font-size: 30px;
+    color: #B4B4B4
 }
