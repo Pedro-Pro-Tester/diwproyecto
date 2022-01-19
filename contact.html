@@ -8,27 +8,32 @@
         content="Tu experiencia en ThundeRush nos importa, contacta con nosotros RESPONSABLE: Pedro Guilló Román,C/ Blanca, 23 03412 Madrid e-mail: info@thunderush.com">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="./assets/images/6610Logo.ico">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap" rel="stylesheet">
     <title>Contacto: ThundeRush</title>
 </head>
 
 <body>
     <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="servicies.html">Servicios</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
         <a href="index.html"><img src="./assets/images/Logo.png" alt="ThundeRush"></a>
-        <h1>¡Contacta con nosotros!</h1>
     </header>
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="contact.html">Contacto</a>
-        <a href="servicies.html">Servicios</a>
-        <a href="blog.html">Blog</a>
-    </nav>
-
+    <h1>¡Contacta con nosotros!</h1>
     <form>
         <fieldset>
             <legend>Datos Personales</legend>
 
             <label for="nombre">Nombre: </label>
-            <input autofocus type="text" name="nombre" id="nombre" placeholder="*Nombre" required
+            <input autofocus="autofocus" type="text" name="nombre" id="nombre" placeholder="*Nombre" required
                 maxlength="30" pattern="[A-z]{0-9}">
 
             <label for="edad">Edad: </label>
@@ -40,8 +45,7 @@
             <label for="telefono">Teléfono: </label>
             <input type="tel" name="telefono" id="telefono" placeholder="*Teléfono" required>
 
-            <textarea name="tu-mensaje" id="consulta" cols="40" rows="8" placeholder="*Mensaje"
-                required></textarea>
+            <textarea name="tu-mensaje" id="consulta" cols="40" rows="8" placeholder="*Mensaje" required></textarea>
 
             <input type="checkbox" name="cookies" id="cookies" required>
             <label for="cookies">He leído y acpetado la política de privacidad</label>
@@ -56,8 +60,9 @@
         <h4>Redes sociales</h4>
         <a href="https://es-es.facebook.com/"><img src="./assets/images/facebook-square-brands.svg" alt="facebook"></a>
         <a href="https://twitter.com/?lang=es"><img src="./assets/images/twitter-square-brands.svg" alt="twitter"></a>
-        <a href="https://www.instagram.com/?hl=es"><img src="./assets/images/instagram-square-brands.svg" alt="instagram"></a>
-      </footer>
+        <a href="https://www.instagram.com/?hl=es"><img src="./assets/images/instagram-square-brands.svg"
+                alt="instagram"></a>
+    </footer>
 </body>
 
 </html>
