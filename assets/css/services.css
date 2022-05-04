@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #111;
+    color: #fff;
+}
+
+.service{
+    padding: 100px 0;
+
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 45px;
+    margin: auto;
+
+}
+.max-width h1{
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    padding-top: 120px;
+
+}
+.max-width h1::after{
+    content: "";
+    position: absolute;
+    width: 170px;
+    height: 3px;
+    background: #fff;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.content{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.card{
+    padding: 50px 25px;
+    width: calc(26% - 20px);
+    border-radius: 6px;
+    background: #545454;
+    margin: 20px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+.card:hover{
+    background-color: #302872;
+}
+.box{
+    transition: all 0.3s ease;
+}
+.card:hover .box{
+    transform: scale(1.05);
+
+}
+.icon{
+    font-size: 50px;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+.card:hover .box .icon{
+    color: #fff;
+}
+.box h3{
+    font-size: 25px;
+    padding: 10px 0 7px;
+
+}
+
+
+@media (max-width: 768px){
+
+    .content{
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 100%;
+    }
+}

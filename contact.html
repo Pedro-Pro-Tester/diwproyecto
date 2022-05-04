@@ -2,66 +2,80 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description"
-        content="Tu experiencia en ThundeRush nos importa, contacta con nosotros RESPONSABLE: Pedro Guilló Román,C/ Blanca, 23 03412 Madrid e-mail: info@thunderush.com">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/x-icon" href="./assets/images/6610Logo.ico">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap" rel="stylesheet">
-    <title>Contacto: ThundeRush</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description"
+    content="Tu experiencia en ThundeRush nos importa, contacta con nosotros RESPONSABLE: Pedro Guilló Román,C/ Blanca, 23 03412 Madrid e-mail: info@thunderush.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/x-icon" href="./assets/images/6610Logo.ico">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/contact.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap" rel="stylesheet">
+  <title>Contacto: ThundeRush</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-          <ul class="navUl">
-            <li><a href="index.html"><img src="./assets/images/Logo.png" alt="ThundeRush"> Inicio</a></li>
-            <li><a href="contact.html">Contacto</a></li>
-            <li><a href="servicies.html">Servicios</a></li>
-            <li><a href="blog.html">Blog</a></li>
-          </ul>
-        </nav>
-      </header>
-    <h1>¡Contacta con nosotros!</h1>
-    <form>
-        <fieldset>
-            <legend>Datos Personales</legend>
+  <header>
+    <nav>
+      <div class="logo">ThundeRush</div>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+        <li><a href="servicies.html">Servicios</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="contact-section">
+    <h1>Contacta con nosotros</h1>
+    <div class="border">
 
-            <label for="nombre">Nombre: </label>
-            <input autofocus="autofocus" type="text" name="nombre" id="nombre" placeholder="*Nombre" required
-                maxlength="30" pattern="[A-z]{0-9}">
-
-            <label for="edad">Edad: </label>
-            <input type="number" name="edad" id="edad" placeholder="*Edad" required max="99" min="18">
-
-            <label for="email">Email: </label>
-            <input type="text" name="email" id="email" placeholder="*Email" required>
-
-            <label for="telefono">Teléfono: </label>
-            <input type="tel" name="telefono" id="telefono" placeholder="*Teléfono" required>
-
-            <textarea name="tu-mensaje" id="consulta" cols="40" rows="8" placeholder="*Mensaje" required></textarea>
-
-            <input type="checkbox" name="cookies" id="cookies" required>
-            <label for="cookies">He leído y acpetado la política de privacidad</label>
-
-            <a href="mailto:infothunderush.com">Envía un correo a ThundeRush</a><br>
-            <a href="+34600222333">Llamanos al 600 222 333</a>
-
-        </fieldset>
+    </div>
+    <form action="index.html" class="contact-form" method="post">
+      <input type="text" class="contact-form-text" placeholder="*Tu Nombre" autofocus>
+      <input type="text" class="contact-form-text" placeholder="*Tu Email">
+      <input type="text" class="contact-form-text" placeholder="*Tu Telefono">
+      <textarea class="contact-form-text" placeholder="*Tu Mensaje"></textarea>
+      <input id="one" type="checkbox" />
+      <label for="one">
+        <span></span>
+        He leído y acpetado la política de privacidad
+        <ins><i>He leído y acpetado la política de privacidad</i></ins>
+      </label>
+      <input type="submit" class="contact-form-btn" value="Send">
     </form>
-
-    <footer>
-        <h4>Redes sociales</h4>
-        <a href="https://es-es.facebook.com/"><img src="./assets/images/facebook-square-brands.svg" alt="facebook"></a>
-        <a href="https://twitter.com/?lang=es"><img src="./assets/images/twitter-square-brands.svg" alt="twitter"></a>
-        <a href="https://www.instagram.com/?hl=es"><img src="./assets/images/instagram-square-brands.svg"
-                alt="instagram"></a>
-    </footer>
+  </div>
+  <footer>
+    <ul class="social_icon">
+      <li><a href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+      <li><a href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+      <li><a href="#">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a></li>
+      <li><a href="#">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a></li>
+    </ul>
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Team</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <p>© 2022 ThundeRush|All rights reserved.</p>
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia de Creative Commons"
+      style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /> <p>Este obra está bajo
+  una</p> <a rel="license" class="linkFooter" href="http://creativecommons.org/licenses/by/4.0/">licencia de Creative Commons Reconocimiento
+    4.0 Internacional</a>.
+  </footer>
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
 
 </html>
