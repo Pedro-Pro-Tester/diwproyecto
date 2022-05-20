@@ -235,6 +235,14 @@ section {
     margin: 0 15px;
     background: #36221c;
 }
+#toTop {
+    display: block;
+    position: fixed;
+    top: 85%;
+    right: 10px;
+    padding: 4px 4px 4px 4px;
+    font-size: 3em; color: Tomato;
+  }
 
 @media (max-width : 1030px){
     .container-type-1{

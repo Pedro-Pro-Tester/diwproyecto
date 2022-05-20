@@ -13,6 +13,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="./assets/css/blog.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/509deda241.js" crossorigin="anonymous"></script>
   <title>Blog: ThundeRush</title>
 </head>
 
@@ -37,73 +39,80 @@
       <div class="row">
         <div class="leftcolumn">
           <div class="scrollDiv">
-            <div class="card">
+            <div class="card" id="post1">
               <h2>Lorem ipsum 1</h2>
               <h5>Lorem ipsum dolor sit, Dec 7, 2021</h5>
-              <div class="fakeimg" style="height:200px;">
-                Image
-              </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quam, fugiat corrupti dolor iusto
-                odit
-                aperiam, rerum, magnam tenetur porro facere sunt perspiciatis qui quod. Quis voluptatibus tempora
-                accusantium
-                ipsam?</p>
+        
             </div>
-            <div class="card">
-              <h2>Lorem ipsum 2</h2>
+            <div class="card" >
+              <h2 id="post2">Lorem ipsum 2</h2>
               <h5>Lorem ipsum dolor sit amet, Sep 2, 2021</h5>
-              <div class="fakeimg" style="height:200px;">Image</div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quam, fugiat corrupti dolor iusto
-                odit
-                aperiam, rerum, magnam tenetur porro facere sunt perspiciatis qui quod. Quis voluptatibus tempora
-                accusantium
-                ipsam?</p>
+              
             </div>
             <div class="card">
-              <h2>Lorem ipsum 3</h2>
+              <h2 id="post3">Lorem ipsum 3</h2>
               <h5>Lorem ipsum dolor sit amet, Sep 15, 2021</h5>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12527.924997596963!2d-0.7161222!3d38.2799275!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x609104ad972f51c4!2sIES%20Severo%20Ochoa%20Elche!5e0!3m2!1ses!2ses!4v1633974517064!5m2!1ses!2ses"
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="blogImage">
               </iframe>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quam, fugiat corrupti dolor iusto
-                odit
-                aperiam, rerum, magnam tenetur porro facere sunt perspiciatis qui quod. Quis voluptatibus tempora
-                accusantium
-                ipsam?</p>
+              
             </div>
             <div class="card">
-              <h2>Lorem ipsum 4</h2>
+              <h2 id="post4">Lorem ipsum 4</h2>
               <h5>Lorem ipsum dolor sit amet, Nov 2, 2021</h5>
               <iframe width="560" height="315" src="https://www.youtube.com/embed/jrTMMG0zJyI?start=1"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen class="blogImage"></iframe>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quam, fugiat corrupti dolor iusto
-                odit
-                aperiam, rerum, magnam tenetur porro facere sunt perspiciatis qui quod. Quis voluptatibus tempora
-                accusantium
-                ipsam?</p>
+              
             </div>
             <div class="card">
-              <h2>Lorem ipsum 5</h2>
+              <h2 id="post5">Lorem ipsum 5</h2>
               <h5>Lorem ipsum dolor sit amet, Dec 2, 2021</h5>
               <div class="fakeimg" style="height:200px;">Image</div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quam, fugiat corrupti dolor iusto
-                odit
-                aperiam, rerum, magnam tenetur porro facere sunt perspiciatis qui quod. Quis voluptatibus tempora
-                accusantium
-                ipsam?</p>
             </div>
             <div class="card">
-              <h2>Lorem ipsum 6</h2>
+              <h2 id="post6">Lorem ipsum 6</h2>
               <h5>Lorem ipsum dolor sit amet, Dec 3, 2021</h5>
-              <div class="fakeimg" style="height:200px;">Image</div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quam, fugiat corrupti dolor iusto
-                odit
-                aperiam, rerum, magnam tenetur porro facere sunt perspiciatis qui quod. Quis voluptatibus tempora
-                accusantium
-                ipsam?</p>
+            </div>
+            <div class="card">
+              <h2 id="post7">Lorem ipsum 7</h2>
+              <h5>Lorem ipsum dolor sit amet, Dec 2, 2021</h5>
+              <div class="caja caja1">click</div>
+              <div class="caja caja2">dblclick</div>
+              <div class="caja caja3">mouseenter</div>
+              <div class="caja caja4">mouseleave</div>
+              <div class="caja caja5">hover</div>
+              <div class="caja caja6">mousedown</div>
+              <div class="caja caja7">mouseup</div>
+            </div>
+            <div class="card">
+              <h2 id="post8">Lorem ipsum 8</h2>
+              <h5>Lorem ipsum dolor sit amet, Dec 3, 2021</h5>
+              <button id="b1">slideUp</button>
+              <button id="b2">slideDown</button>
+              <button id="b3">slideToggle</button>
+              <button id="b4">fadeOut</button>
+              <button id="b5">bind</button>
+              <button id="b6">delay</button>
+              <button id="b7">toggleClass</button>
+              <div class="container">
+                <div class="caja caja-animated"></div>
+              </div>
+            </div>
+            <div class="card">
+              <h2 id="post9">Lorem ipsum 9</h2>
+              <h5>Lorem ipsum dolor sit amet, Dec 3, 2021</h5>
+              <button id="b8">derecha</button>
+              <button id="b9">abajo</button>
+              <button id="b10">más grande</button>
+              <button id="b11">más pequeño</button>
+              <button id="b12">más opacidad</button>
+              <button id="b13">menos opacidad</button>
+              <div class="container">
+                <div class="caja caja-animated-1"></div>
+              </div>
             </div>
           </div>
         </div>
@@ -115,9 +124,28 @@
           </div>
           <div class="card">
             <h3>Popular Post</h3>
-            <div class="fakeimg">Image</div><br>
-            <div class="fakeimg">Image</div><br>
-            <div class="fakeimg">Image</div>
+            <div class="linkType">
+              <ul>
+                <li><a id="btnpost1" class="underline">
+                    Post 1</a></li>
+                <li><a id="btnpost2" class="underline">
+                    Post 2</a></li>
+                <li><a id="btnpost3" class="underline">
+                    Post 3</a></li>
+                <li><a id="btnpost4" class="underline">
+                    Post 4</a></li>
+                <li><a id="btnpost5" class="underline">
+                    Post 5</a></li>
+                <li><a id="btnpost6" class="underline">
+                    Post 6</a></li>
+                <li><a id="btnpost7" class="underline">
+                    Post 7</a></li>
+                <li><a id="btnpost8" class="underline">
+                    Post 8</a></li>
+                <li><a id="btnpost9" class="underline">
+                    Post 9</a></li>
+              </ul>
+            </div>
           </div>
           <div class="card">
             <h3>Follow Me</h3>
@@ -156,7 +184,9 @@
           Creative Commons Reconocimiento
           4.0 Internacional</a>.
       </footer>
+      <a id="toTop" href="#"><i class="fas fa-arrow-up"></i></a>
       <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+      <script src="./assets/js/blog.js"></script>
     </div>
   </main>
 </body>

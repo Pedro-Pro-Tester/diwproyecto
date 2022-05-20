@@ -13,7 +13,8 @@
 
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/home.css">
-
+  <script src="https://kit.fontawesome.com/509deda241.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 
 
@@ -26,12 +27,26 @@
     <nav>
       <div class="logo">ThundeRush</div>
       <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="contact.html">Contacto</a></li>
-        <li><a href="servicies.html">Servicios</a></li>
-        <li><a href="blog.html">Blog</a></li>
+        <li class="normal"><a href="index.html">Inicio</a></li>
+        <li class="normal"><a href="contact.html">Contacto</a></li>
+        <li class="normal"><a href="servicies.html">Servicios</a></li>
+        <li class="normal"><a href="blog.html">Blog</a></li>
+        <li class="mobile hamburguer"><a class="hamburguerHover"><svg width="30" height="30">
+          <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+          <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+          <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+      </svg></a></li>
       </ul>
     </nav>
+
+    <div class="side-nav">
+      <a href="#" class="btn-close">&times;</a>
+      <a href="index.html">Inicio</a>
+      <a href="contact.html">Contacto</a>
+      <a href="servicies.html">Servicios</a>
+      <a href="blog.html">Blog</a>
+    </div>
+
   </header>
   <!-- Fin Navegador -->
   <!--Area Hero -->
@@ -49,21 +64,21 @@
   <!--Sección Equipo-->
   <section>
     <div class="container-type-2">
-        <div class="left"></div>
-        <div class="right">
-            <div class="content">
-                <h1>Nuestro Equipo</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Laudantium voluptate facilis repudiandae esse, libero delectus 
-                harum excepturi perspiciatis expedita aspernatur consequuntur! 
-                Iure officia, culpa laborum repudiandae omnis alias adipisci iste!</p>
-                <a href="#" class="">Únete</a>
-            </div>
-        </div>   
+      <div class="left"></div>
+      <div class="right">
+        <div class="content">
+          <h1>Nuestro Equipo</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Laudantium voluptate facilis repudiandae esse, libero delectus
+            harum excepturi perspiciatis expedita aspernatur consequuntur!
+            Iure officia, culpa laborum repudiandae omnis alias adipisci iste!</p>
+          <a href="#" class="">Únete</a>
+        </div>
+      </div>
     </div>
-</section>
-<!--Fin Sección Equipo-->
-<!--- Cards -->
+  </section>
+  <!--Fin Sección Equipo-->
+  <!--- Cards -->
   <div class="bg-cover-mine">
     <div class="max-width-mine">
       <h2>Aprende Desarrollo Web</h2>
@@ -122,35 +137,35 @@
   <!--Fin Cards-->
   <div class="section-carousel">
     <div class="container">
-        <div class="row">
-            <div class="col s12">
-                <h1 class="center-align titulo">Elige tu Estilo de Diseño</h1>
+      <div class="row">
+        <div class="col s12">
+          <h1 class="center-align titulo">Elige tu Estilo de Diseño</h1>
 
-                <div class="carousel center-align">
-                    <div class="carousel-item">
-                        <h2 class="subtitulo">Clásico</h2>
-                        <div class="linea-division"></div>
-                        <img src="./assets/images/clasico.jpg" alt="estilo-clásico">
-                    </div>
-                    <div class="carousel-item">
-                        <h2 class="subtitulo">Moderno</h2>
-                        <div class="linea-division"></div>
-                        <img src="./assets/images/moderno.jpg" width="400" alt="estilo-moderno">
-                    </div>
-
-                    <div class="carousel-item">
-                        <h2 class="subtitulo">Creativo</h2>
-                        <div class="linea-division"></div>
-                        <img src="./assets/images/creativo.jpg" width="400" alt="estilo-creativo">
-                    </div>
-                    <div class="carousel-item">
-                        <h2 class="subtitulo">Estiloso</h2>
-                        <div class="linea-division"></div>
-                        <img src="./assets/images/estiloso.jpg" width="400" alt="estiloso">
-                    </div>
-                </div>
+          <div class="carousel center-align">
+            <div class="carousel-item">
+              <h2 class="subtitulo">Clásico</h2>
+              <div class="linea-division"></div>
+              <img src="./assets/images/clasico.jpg" alt="estilo-clásico">
             </div>
+            <div class="carousel-item">
+              <h2 class="subtitulo">Moderno</h2>
+              <div class="linea-division"></div>
+              <img src="./assets/images/moderno.jpg" width="400" alt="estilo-moderno">
+            </div>
+
+            <div class="carousel-item">
+              <h2 class="subtitulo">Creativo</h2>
+              <div class="linea-division"></div>
+              <img src="./assets/images/creativo.jpg" width="400" alt="estilo-creativo">
+            </div>
+            <div class="carousel-item">
+              <h2 class="subtitulo">Estiloso</h2>
+              <div class="linea-division"></div>
+              <img src="./assets/images/estiloso.jpg" width="400" alt="estiloso">
+            </div>
+          </div>
         </div>
+      </div>
     </div>
   </div>
   <!--Footer-->
@@ -178,10 +193,13 @@
     </ul>
     <p>© 2022 ThundeRush|All rights reserved.</p>
     <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia de Creative Commons"
-        style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /> <p>Este obra está bajo
-    una</p> <a rel="license" class="linkFooter" href="http://creativecommons.org/licenses/by/4.0/">licencia de Creative Commons Reconocimiento
+        style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />
+    <p>Este obra está bajo
+      una</p> <a rel="license" class="linkFooter" href="http://creativecommons.org/licenses/by/4.0/">licencia de
+      Creative Commons Reconocimiento
       4.0 Internacional</a>.
   </footer>
+  <a id="toTop" href="#"><i class="fas fa-arrow-up"></i></a>
   <!--Fin Footer-->
   <!--Scripts-->
   <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
@@ -193,5 +211,7 @@
 
   <!-- JS Main -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/menu.js"></script>
 </body>
+
 </html>

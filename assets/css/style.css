@@ -60,6 +60,47 @@ nav ul li a:hover{
 nav ul a{
     display:unset;
 }
+.side-nav{
+    height:100%;
+    width:0;
+    position:fixed;
+    z-index: 2;
+    top:0;
+    right:0;
+    background-color:#111;
+    opacity:0.9;
+    overflow-x:hidden;
+    padding-top:60px;
+    transition:0.5s;
+}
+.side-nav a{
+    padding:10px 10px 10px 30px;
+    text-decoration:none;
+    font-size:22px;
+    color:#ccc;
+    display:block;
+    transition:0.3s;
+}
+  
+.side-nav a:hover{
+    color:#fff;
+}
+  
+.side-nav .btn-close{
+    position:absolute;
+    top:0;
+    right:22px;
+    font-size:36px;
+    margin-left:50px;
+}
+.hamburguer{
+    color: white;
+    padding: 10px;
+}
+.hamburguerHover{
+    padding-bottom: 0px ;
+    padding-top: 20px ;
+}
 
 .heroVideo video{
     left: 0;
@@ -155,4 +196,21 @@ footer p{
     opacity: 1;
 }
 
+@media only screen and (max-width:768px){
+    nav ul li .normal{
+        display: none;
+    }
+    nav ul li .mobile{
+        display: block;
+    }
+}
+@media only screen and (max-width:1024px){
+    nav ul li .normal{
+        display: block;
+    }
+    nav ul li .mobile{
+        display: none;
+    }
+}
+ 
 
